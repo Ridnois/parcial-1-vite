@@ -22,8 +22,16 @@ export default function Navbar() {
                                 Servicios
                             </NavLink>
                         </li>
-                        <li><a href="contacto.html">Contacto</a></li>
-                        <li><a href="quienes-somos.html">Quiénes somos</a></li>
+                        <li>
+                            <NavLink to="/contacto" >
+                                Contacto
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/quienes-somos" >
+                                Quíenes somos
+                            </NavLink>
+                        </li>
                     </ul>
                 </nav>
             </div>

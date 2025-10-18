@@ -1,5 +1,5 @@
-import HomeComponent from "components/Home";
 import ServiciosComponent from "components/Servicios";
+import type { Route } from "../+types/root";
 
 export function meta({ }: Route.MetaArgs) {
     return [

@@ -1,4 +1,5 @@
 import HomeComponent from "components/Home";
+import type { Route } from "../+types/root";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -7,6 +8,6 @@ export function meta({}: Route.MetaArgs) {
   ];
 }
 
-export default function HomeComp() {
+export default function HomePage() {
   return <HomeComponent />
 }
